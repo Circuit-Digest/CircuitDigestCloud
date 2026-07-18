@@ -1,6 +1,6 @@
 {
   "name": "CircuitDigestCloud",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Arduino client for the CircuitDigest Cloud MQTT platform.",
   "keywords": "mqtt, cloud, iot, circuitdigest, esp32, esp8266, pico",
   "authors": { "name": "Jobit Joseph", "email": "jobitjoseph1@gmail.com", "maintainer": true },
