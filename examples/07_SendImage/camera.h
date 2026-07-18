@@ -110,7 +110,7 @@ inline bool initCamera() {
   // UXGA is valid for both OV2640 and OV3660; the OV3660 can go higher (QXGA)
   // if you want to bump it on the S3-N16R8 board.
   if (psramFound()) {
-    cfg.frame_size   = FRAMESIZE_UXGA;   // 1600×1200
+    cfg.frame_size   = FRAMESIZE_SVGA;   // 800 × 600 pixels
     cfg.jpeg_quality = 4;                // 0–63, lower = better quality
     cfg.fb_count     = 1;                // 1 at UXGA for stability
   } else {
