@@ -1,7 +1,6 @@
 #pragma once
 
-// Anedya Root CA 3 (ECC / ECDSA-P256)
-// Issued to: mqtt.ap-in-1.anedya.io via intermediate Anedya E1
+//Root CA 3 (ECC / ECDSA-P256)
 // Valid: 2024-01-01 – 2043-12-31
 static const char rootCA[] =
     "-----BEGIN CERTIFICATE-----\n"
