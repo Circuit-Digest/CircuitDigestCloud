@@ -58,8 +58,9 @@ void IRAM_ATTR onBootButton() {
 }
 
 // Control callback for REMOTE_CAPTURE. 
-void handleCapture(CDValue value) {
-  if (value.asBool() && !captureBusy) remoteCapture = true;
+void handleCapture(float value) {
+  bool rc = (bool)value;
+  if (rc && !captureBusy) remoteCapture = true;
   CDcloud.publish(REMOTE_CAPTURE, 0.0f);
 }
 
